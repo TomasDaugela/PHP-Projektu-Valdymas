@@ -1,5 +1,5 @@
 1. index.php faile 14,15,16 eilutėje pakeičiame savo localhost duomenis
-2. index.php faile 39,40,41 eilutėje pakeičiame savo localhost duomenis
+2. index.php faile 37,38,39 eilutėje pakeičiame savo localhost duomenis
 3. process.php faile 4 eilutėje pakeičiame savo localhost duomenis. Nekeiskite "crud".
 
 Pasileidžiam turėtų veikti
