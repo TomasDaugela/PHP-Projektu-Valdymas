@@ -1,0 +1,66 @@
+html{
+    background-color: #8cd5df1e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 75px;
+    width: 100%;
+}
+td {
+    border: 1px solid #43BCCD;
+    padding: 8px;
+}
+
+th{
+    background-color: #43BCCD;
+    padding: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(25, 34, 33, 0.363);
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #F9C80E;
+
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+
+    background-color: #d6ab0d;
+
+}
+.red{
+    background-color: #EA3546;
+}
+.red:hover{
+    background-color: #af2634;
+}
+input {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+button{
+    background-color: #43BCCD;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: #32909c;
+
+}
+.update{
+    background-color: #F9C80E;
+}
+.update:hover{
+    background-color: rgb(156, 156, 35);
+}
+
