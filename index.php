@@ -26,12 +26,13 @@ if (!$conn) {
 $sql = "CREATE DATABASE crud";
 if (mysqli_query($conn, $sql)) {
     echo "Database created successfully";
-} else {
-    echo "Error creating database: " . mysqli_error($conn);
-}
+} 
 
 mysqli_close($conn);
 ?>
+
+
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -55,9 +56,7 @@ course VARCHAR(30) NOT NULL
 
 if (mysqli_query($conn, $sql)) {
     echo "Table MyGuests created successfully";
-} else {
-    echo "Error creating table: " . mysqli_error($conn);
-}
+} 
 
 mysqli_close($conn);
 ?>
