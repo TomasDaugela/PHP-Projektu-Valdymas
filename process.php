@@ -1,7 +1,8 @@
 <?php
     session_start();
 
-    $mysqli = new mysqli('localhost','root','mysql','crud')
+
+    $mysqli = new mysqli($servername,'root','mysql','crud')
     or die (mysqli_error($mysqli));
 
     $id = 0;
